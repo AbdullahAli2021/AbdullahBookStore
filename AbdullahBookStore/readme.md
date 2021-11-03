@@ -17,3 +17,9 @@ The assignment is consist of creating a online book store from the scratch using
 21:50 -- ERROR I created the 3 projects using the MVC template which give a lot of errors !!!!!! I cloned my previous version of github and started using library class.
 22:30 -- Finally it worked after a bunch of try, I have now 4 projects in the solution and when running the application it worked perfectly, there were some files to change place or modify.
 23:15 -- Finally the part 1 is finished, pushed it to gitHub
+
+
+11/3/2021
+
+9:30 Just fix the dropdown issue using the linj to bootstrap on powerpoint. Also the app wasnt working on the college pc because of the ssl so fix it by commenting the ssl line on launchSetting.json
+9:32 Pushing to Github
