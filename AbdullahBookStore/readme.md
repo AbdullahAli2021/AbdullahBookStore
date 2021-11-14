@@ -17,3 +17,8 @@ The assignment is consist of creating a online book store from the scratch using
 21:50 -- ERROR I created the 3 projects using the MVC template which give a lot of errors !!!!!! I cloned my previous version of github and started using library class.
 22:30 -- Finally it worked after a bunch of try, I have now 4 projects in the solution and when running the application it worked perfectly, there were some files to change place or modify.
 23:15 -- Finally the part 1 is finished, pushed it to gitHub
+
+11/13/2021
+
+13:00 Added the AddDefaultIdentityMigration
+
