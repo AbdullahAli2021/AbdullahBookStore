@@ -32,6 +32,7 @@ The assignment is consist of creating a online book store from the scratch using
 11/14/2021
 14:30 Create the repository folders  the ISP_Call and SP_Call interface and class.
 15:30 Create the repository folders  the IUnitOfWork and UnitOfWork interface and class.
-17:30 ERROR : return Json(new { data - allObj }); in CategoryController.cs //data it doesnt work with minus I dont know why exactly this error
+17:30 ERROR : return Json(new { data - allObj }); in CategoryController.cs //data it doesnt work with minus I dont know why exactly this error (Fixed error Typo = not -)
 18:30 Adding the category.js file in js folder
 ERROR : WHen click adding category in the browser doesnt work with error
+
