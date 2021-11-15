@@ -23,3 +23,15 @@ The assignment is consist of creating a online book store from the scratch using
 
 9:30 Just fix the dropdown issue using the link to bootstrap on powerpoint. Also the app wasnt working on the college pc because of the ssl so fix it by commenting the ssl line on launchSetting.json
 9:32 Pushing to Github
+
+11/13/2021
+13:30 Adding the  AddDefaultIdentity Migration with success
+14:00 Create the repository folders and the and the Irepository and Repository interface and class.
+14:30 Create the repository folders and the and the ICategoryrepository and CategoryRepository interface and class.
+
+11/14/2021
+14:30 Create the repository folders  the ISP_Call and SP_Call interface and class.
+15:30 Create the repository folders  the IUnitOfWork and UnitOfWork interface and class.
+17:30 ERROR : return Json(new { data - allObj }); in CategoryController.cs //data it doesnt work with minus I dont know why exactly this error
+18:30 Adding the category.js file in js folder
+ERROR : WHen click adding category in the browser doesnt work with error
