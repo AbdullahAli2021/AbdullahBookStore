@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AbdullahBookStore.Models;
+
 
 namespace AbdullahBookStore.DataAccess.Data.Repository.IRepository
 {
-    public interface IUnitOfWork : IDisposable
+    public interface ICoverTypeRepository : IRepository<CoverType>
     {
-        ICategoryRepository Category { get; }
-        ISP_Call SP_Call { get; }
-        ICoverTypeRepository CoverType { get; }
+        void Update(CoverType coverType);
     }
 }
