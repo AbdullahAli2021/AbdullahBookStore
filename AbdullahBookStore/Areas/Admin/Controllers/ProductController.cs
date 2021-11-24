@@ -23,6 +23,10 @@ namespace AbdullahBookStore.Areas.Admin.Controllers
             _unitOfWork = unitOfWork;
             _hostEnvironment = hostEnvironment;
         }
+        public IActionResult Index()
+        {
+            return View();
+        }
 
         public IActionResult Upsert(int? id)
         {
@@ -56,9 +60,28 @@ namespace AbdullahBookStore.Areas.Admin.Controllers
             return View(productVM);
         }
 
-        public IActionResult Index()
+        #region API CALLS
+        [HttpGet]
+        public IActionResult GetAll()
         {
-            return View();
+            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
+            return Json(new { data = allObj }); 
         }
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var objFromDb = _unitOfWork.Product.Get(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error while deleting" });
+
+            }
+            _unitOfWork.Product.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Error while deleting" });
+        }
+        #endregion
+
+        
     }
 }
