@@ -36,3 +36,26 @@ The assignment is consist of creating a online book store from the scratch using
 18:30 Adding the category.js file in js folder
 ERROR : WHen click adding category in the browser doesnt work with error Andrews told me that is normal
 
+------------------------------------- PART 3  --------------------------------------------------------------
+11/17/2021
+
+15:30 Started  the  added part from part 2 where i have to make the  CRud working.
+16:00 Error the edit page is not working NotImplementedException: The method or operation is not implemented.
+
+
+11/22/2021
+
+11:10 Started the part 3 section 1 
+11:30 Added the coverType files that include the interface and class and the controller and the upsert by using the category as template.
+12:10 Added the AddCoverTypeToDb migration with success.
+12:30 Completed the  covertype with success
+
+
+11/23/2021
+
+19:20 Started the product part.
+19:35 Added the ProductToDb migration with success.
+20:00 Added the Product files that include the interface and class and the controller and the Index View by using the category as template.
+21:00 Error The edit erro is still there and also the delete button doesnt work will see tomorrow if we can resolve it tommorow. This part took me about 5 hours to complete I think because I dont have a second monitor so its more hard to complete the tutorial
+
+
