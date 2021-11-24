@@ -49,7 +49,7 @@ ERROR : WHen click adding category in the browser doesnt work with error Andrews
 11:30 Added the coverType files that include the interface and class and the controller and the upsert by using the category as template.
 12:10 Added the AddCoverTypeToDb migration with success.
 12:30 Completed the  covertype with success
-
+tot
 
 11/23/2021
 
@@ -59,3 +59,5 @@ ERROR : WHen click adding category in the browser doesnt work with error Andrews
 21:00 Error The edit erro is still there and also the delete button doesnt work will see tomorrow if we can resolve it tommorow. This part took me about 5 hours to complete I think because I dont have a second monitor so its more hard to complete the tutorial
 
 
+11/24/2021
+9:30 GEt fixed the error in the edit was a problem with NotImplementedException get vommented and everything is ok.
