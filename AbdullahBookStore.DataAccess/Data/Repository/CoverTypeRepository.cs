@@ -26,7 +26,7 @@ namespace AbdullahBookStore.DataAccess.Data.Repository
                 _db.SaveChanges();
             }
 
-            throw new NotImplementedException();
+          //  throw new NotImplementedException();
 
         }
     }
