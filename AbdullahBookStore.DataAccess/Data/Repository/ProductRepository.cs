@@ -8,7 +8,7 @@ using AbdullahBookStore.Models;
 
 namespace AbdullahBookStore.DataAccess.Data.Repository
 {
-    class ProductRepository : Repository<Product>, IProductRepository
+    public class ProductRepository : Repository<Product>, IProductRepository
     {
         private readonly ApplicationDbContext _db;
         public ProductRepository(ApplicationDbContext db) : base(db)

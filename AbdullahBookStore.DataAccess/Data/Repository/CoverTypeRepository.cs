@@ -23,7 +23,7 @@ namespace AbdullahBookStore.DataAccess.Data.Repository
             if (objFromDb != null)
             {
                 objFromDb.Name = coverType.Name;
-                _db.SaveChanges();
+               
             }
 
           //  throw new NotImplementedException();

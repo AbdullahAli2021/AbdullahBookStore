@@ -16,6 +16,8 @@ namespace AbdullahBookStore.DataAccess.Data.Repository
         {
             _db = db;
             Category = new CategoryRepository(_db);
+            CoverType = new CoverTypeRepository(_db);
+            Product = new ProductRepository(_db);
             SP_Call = new SP_Call(_db);
         }
 
