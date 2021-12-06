@@ -61,3 +61,17 @@ tot
 
 11/24/2021
 9:30 GEt fixed the error in the edit was a problem with NotImplementedException get vommented and everything is ok.
+
+
+
+---------------------------------------------------------Part 4 ----------------------------------------------------------------------
+--------------------------------------------working hours :2.5 hours ---------------------------------------------------------------------
+
+12/05/2021
+16:30 : Started the third part of the part 3 by adding the upsert of product.
+17:00 Completed the upsert .
+17:30 Modifying the Product Controller to add the upsert Method for get and post and the API calls rwegion.
+17:45 ERROR the add product is working but no records appearing on the product table.
+18:30 FIXING the error : I have missed to ad an empty <th> tag after the categories of product, but still no images are working.
+19:00 Completing the modification of the home page by modifying the index of home view and the Home controllers using the repo provided in the course tested and it works perfectly.
+19:15: Ended the part 4
